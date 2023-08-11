@@ -1,12 +1,12 @@
 {
-    "name": "Muhammad Hamza",
-    "email": "hamza@mhmz.dev",
+    "name": "Pedro Graton",
+    "email": "Graton@mhmz.dev",
     "subtitles": [
         "Flutter Developer",
         "Technical Writer",
         "UI/UX Designer"
     ],
-    "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
+    "mobilePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
     "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
     "socialLinks": [
         {
@@ -31,10 +31,10 @@
         },
         {
             "platform": "medium",
-            "url": "https://mhamzadev.medium.com/"
+            "url": "https://mGratondev.medium.com/"
         }
     ],
-    "aboutMeHeadline": "I'm Muhammad Hamza, a Flutter developer, Technical Writer and UI/UX Designer.",
+    "aboutMeHeadline": "I'm Pedro Graton, a Flutter developer, Technical Writer and UI/UX Designer.",
     "aboueMeDetails": "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm a former Google DSC lead and also CEO/Co-Founder Flutter Islamabad, Pakistan.",
     "technologies": [
         "Flutter",
@@ -47,23 +47,23 @@
     "services": [
         {
             "icon": "assets/services/app.png",
-            "name": "Mobile App Development",
+            "name": "Desenvolvimento de Aplicativo Mobile",
             "description": "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!"
         },
         {
             "icon": "assets/services/ui.png",
-            "name": "UI/UX Designing",
-            "description": "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!"
+            "name": "UI/UX Design",
+            "description": "Modern UI/UX Design\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!"
         },
         {
             "icon": "assets/services/rapid.png",
-            "name": "Rapid Prototyping",
+            "name": "Prototipagem de Aplicações",
             "description": "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype"
         },
         {
             "icon": "assets/services/blog.png",
-            "name": "Technical Blog Writing",
-            "description": "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!"
+            "name": "Aulas de programação Web",
+            "description": "Aulas de programação Web\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!"
         },
         {
             "icon": "assets/services/open.png",
@@ -153,7 +153,7 @@
         },
         {
             "param": "email",
-            "value": "hamza.6.shakeel@gmail.com"
+            "value": "Graton.6.shakeel@gmail.com"
         }
     ]
 }

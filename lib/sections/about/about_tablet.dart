@@ -26,14 +26,10 @@ class AboutTab extends StatelessWidget {
         children: [
           const Center(
             child: CustomSectionHeading(
-              text: '\nAbout Me',
+              text: '\nSobre Mim',
             ),
           ),
-          const Center(
-            child: CustomSectionSubHeading(
-              text: 'Get to know me :)',
-            ),
-          ),
+          
           Space.y1!,
           Image.asset(
             StaticUtils.mobilePhoto,
@@ -43,7 +39,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.03,
           ),
           Text(
-            "Who am I?",
+            "Quem sou eu?",
             style: AppText.b2!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -73,7 +69,7 @@ class AboutTab extends StatelessWidget {
           ),
           Space.y!,
           Text(
-            'Technologies I have worked with:',
+            'Tecnologias e Ferramentas:',
             style: AppText.l1!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -98,7 +94,7 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Name",
-                    information: "Muhammad Hamza",
+                    information: "Pedro Graton",
                   ),
                   AboutMeData(
                     data: "Age",
@@ -114,7 +110,7 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "Graton.6.shakeel@gmail.com",
                   ),
                   AboutMeData(
                     data: "From",

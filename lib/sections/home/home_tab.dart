@@ -27,7 +27,7 @@ class HomeTab extends StatelessWidget {
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
-                  StaticUtils.blackWhitePhoto,
+                  StaticUtils.mobilePhoto,
                   height: size.width < 1200
                       ? size.height * 0.75
                       : size.height * 0.85,
@@ -49,7 +49,7 @@ class HomeTab extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'WELCOME TO MY PORTFOLIO! ',
+                      'Seja bem-vindo ao meu Portfolio! ',
                       style: AppText.b2!.copyWith(
                         fontFamily: 'Montserrat',
                       ),
@@ -67,14 +67,14 @@ class HomeTab extends StatelessWidget {
                 ),
                 Space.y1!,
                 Text(
-                  "Muhammad",
+                  "Pedro ",
                   style: AppText.h1!.copyWith(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w100,
                   ),
                 ),
                 Text(
-                  "Hamza",
+                  "Graton",
                   style: AppText.h1b!.copyWith(
                     height: 1,
                   ),

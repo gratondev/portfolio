@@ -25,11 +25,9 @@ class AboutDesktop extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: '\nAbout Me',
+            text: '\nSobre Mim',
           ),
-          const CustomSectionSubHeading(
-            text: 'Get to know me :)',
-          ),
+         
           Space.y1!,
           Row(
             children: [
@@ -47,7 +45,7 @@ class AboutDesktop extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Who am I?',
+                        'Quem sou eu?',
                         style: AppText.b1!.copyWith(
                           color: AppTheme.c!.primary,
                         ),
@@ -77,7 +75,7 @@ class AboutDesktop extends StatelessWidget {
                       ),
                       Space.y!,
                       Text(
-                        'Technologies I have worked with:',
+                        'Linguagens e Frameworks:',
                         style: AppText.l1!.copyWith(
                           color: AppTheme.c!.primary,
                         ),
@@ -101,12 +99,12 @@ class AboutDesktop extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: const [
                               AboutMeData(
-                                data: "Name",
-                                information: "Muhammad Hamza",
+                                data: "Nome",
+                                information: "Pedro Graton",
                               ),
                               AboutMeData(
-                                data: "Age",
-                                information: "24",
+                                data: "Idade",
+                                information: "20",
                               ),
                             ],
                           ),
@@ -116,11 +114,11 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "hamza.6.shakeel@gmail.com",
+                                information: "grandrdep@gmail.com",
                               ),
                               AboutMeData(
-                                data: "From",
-                                information: "Attock, PK",
+                                data: "Cidade",
+                                information: "Cajamar, SP",
                               ),
                             ],
                           ),
@@ -136,26 +134,12 @@ class AboutDesktop extends StatelessWidget {
                               onPressed: () =>
                                   html.window.open(StaticUtils.resume, 'pdf'),
                               child: const Text(
-                                "Resume",
+                                "Meu CV",
                               ),
                             ),
                           ),
                           Space.x1!,
-                          Container(
-                            color: Colors.grey[900]!,
-                            width: AppDimensions.normalize(30),
-                            height: AppDimensions.normalize(0.5),
-                          ),
-                          ...WorkUtils.logos.asMap().entries.map(
-                                (e) => Expanded(
-                                  child: CommunityIconBtn(
-                                    icon: e.value,
-                                    link: WorkUtils.communityLinks[e.key],
-                                    height:
-                                        WorkUtils.communityLogoHeight[e.key],
-                                  ),
-                                ),
-                              )
+                        
                         ],
                       ),
                     ],

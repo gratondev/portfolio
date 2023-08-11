@@ -22,7 +22,7 @@ class HomeMobile extends StatelessWidget {
             child: Opacity(
               opacity: 0.9,
               child: Image.asset(
-                StaticUtils.blackWhitePhoto,
+                StaticUtils.mobilePhoto,
                 height: AppDimensions.normalize(150),
               ),
             ),
@@ -55,14 +55,14 @@ class HomeMobile extends StatelessWidget {
                 ),
                 Space.y!,
                 Text(
-                  "Muhammad",
+                  "Pedro ",
                   style: AppText.h3!.copyWith(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w100,
                   ),
                 ),
                 Text(
-                  "Hamza",
+                  "Graton",
                   style: AppText.h3b!.copyWith(
                     height: 1,
                   ),

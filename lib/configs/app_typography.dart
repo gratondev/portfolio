@@ -23,6 +23,8 @@ class AppText {
   static TextStyle? l1b;
   static TextStyle? l2;
   static TextStyle? l2b;
+    static TextStyle? l3;
+  static TextStyle? l3b;
 
   static init() {
     const b = FontWeight.bold;
@@ -48,5 +50,8 @@ class AppText {
 
     l2 = baseStyle.copyWith(fontSize: AppDimensions.font(4));
     l2b = l2!.copyWith(fontWeight: b);
+
+    l3 = baseStyle.copyWith(fontSize: AppDimensions.font(8), color: Colors.blue);
+    l3b = l3!.copyWith(fontWeight: b);
   }
 }

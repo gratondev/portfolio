@@ -19,8 +19,8 @@ class HomeDesktop extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            bottom: 0,
-            right: 0,
+            bottom: 40,
+            right: 80,
             child: Opacity(
               opacity: 0.9,
               child: EntranceFader(
@@ -28,10 +28,10 @@ class HomeDesktop extends StatelessWidget {
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
-                  StaticUtils.blackWhitePhoto,
+                  StaticUtils.mobilePhoto,
                   height: size.width < 1200
-                      ? size.height * 0.8
-                      : size.height * 0.85,
+                      ? size.height * 0.7
+                      : size.height * 0.75,
                 ),
               ),
             ),
@@ -50,7 +50,7 @@ class HomeDesktop extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'WELCOME TO MY PORTFOLIO! ',
+                      'Seja bem-vindo ao meu Portfolio! ',
                       style: AppText.b1!.copyWith(
                         fontFamily: 'Montserrat',
                       ),
@@ -68,7 +68,7 @@ class HomeDesktop extends StatelessWidget {
                 ),
                 Space.y1!,
                 Text(
-                  "Muhammad",
+                  "Pedro ",
                   style: AppText.h1!.copyWith(
                     fontFamily: 'Montserrat',
                     fontSize: AppDimensions.normalize(25),
@@ -76,7 +76,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Hamza",
+                  "Graton",
                   style: AppText.h1b!.copyWith(
                     fontSize: AppDimensions.normalize(25),
                     height: 1,
@@ -100,15 +100,16 @@ class HomeDesktop extends StatelessWidget {
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' UI/UX Enthusiast',
+                            'Web Developer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
-                          TyperAnimatedText(
-                            ' A friend :)',
+                           TyperAnimatedText(
+                            ' Flutter Developer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
-                          ),
+                          ), 
+                         
                         ],
                         isRepeatingAnimation: true,
                       ),

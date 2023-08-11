@@ -12,6 +12,7 @@ class _NavbarDesktop extends StatelessWidget {
       color: appProvider.isDark ? Colors.black : Colors.white,
       child: Row(
         children: [
+          Padding(padding: EdgeInsets.symmetric(horizontal: 1.2)),
           const NavBarLogo(),
           Space.xm!,
           ...NavBarUtils.names.asMap().entries.map(
@@ -41,7 +42,7 @@ class _NavbarDesktop extends StatelessWidget {
               child: Padding(
                 padding: Space.all(1.25, 0.45),
                 child: Text(
-                  'RESUME',
+                  'Meu CV',
                   style: AppText.l1b,
                 ),
               ),

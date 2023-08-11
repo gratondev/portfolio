@@ -11,13 +11,13 @@ Get started now by cloning :)
 <div align="center">
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](#)
-[![GitHub Forks](https://img.shields.io/github/forks/saadhaxxan/Car_Game_Python_Pygame.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/m-hamzashakeel/DevFolio/fork)
-[![GitHub Issues](https://img.shields.io/github/issues/saadhaxxan/Car_Game_Python_Pygame.svg?style=flat&label=Issues&maxAge=2592000)](https://github.com/m-hamzashakeel/DevFolio/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/saadhaxxan/Car_Game_Python_Pygame.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/m-Gratonshakeel/portfolio/fork)
+[![GitHub Issues](https://img.shields.io/github/issues/saadhaxxan/Car_Game_Python_Pygame.svg?style=flat&label=Issues&maxAge=2592000)](https://github.com/m-Gratonshakeel/portfolio/issues)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat&label=Contributions&colorA=red&colorB=black	)](#)
 
 </div>
 
-## 🧑‍💻 Devfolio
+## 🧑‍💻 portfolio
 Is a multi-platform portfolio for developers available for mobile, windows and web. Includes the following sections:
 - Home
 - About
@@ -31,7 +31,7 @@ Is a multi-platform portfolio for developers available for mobile, windows and w
 
 📱 Android App: https://play.google.com/store/apps/details?id=com.hmz.folio
 
-📙 Article: https://mhamzadev.medium.com/folio-responsive-portfolio-using-flutter-2-0-86ae3e6cce4f
+📙 Article: https://mGratondev.medium.com/folio-responsive-portfolio-using-flutter-2-0-86ae3e6cce4f
 
 
 ## 🔑 License
@@ -39,14 +39,14 @@ Is a multi-platform portfolio for developers available for mobile, windows and w
 
 ## 🧑 Author
 
-#### Muhammad Hamza
-[![LinkedIn Link](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
+#### Pedro Graton
+[![LinkedIn Link](https://img.shields.io/badge/Connect-Graton-blue.svg?logo=linkedin&longCache=true&style=social&label=Connect
 )](https://www.linkedin.com/in/mhmzdev)
 
 You can also follow my GitHub Profile to stay updated about my latest projects:
 
-[![GitHub Follow](https://img.shields.io/badge/Connect-Hamza-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/m-hamzashakeel)
+[![GitHub Follow](https://img.shields.io/badge/Connect-Graton-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/m-Gratonshakeel)
 
 If you liked the repo then kindly support it by giving it a star ⭐!
 
-Copyright (c) 2020 MUHAMMAD HAMZA
+Copyright (c) 2020 Pedro Graton
