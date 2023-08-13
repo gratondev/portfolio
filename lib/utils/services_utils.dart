@@ -18,10 +18,10 @@ class ServicesUtils {
   ];
 
   static const List<String> servicesDescription = [
-    "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-    "Modern UI/UX Design\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
-    "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype",
-    "Aulas de programação Web\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-    "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
+    "Desenvolvimento Mobile com Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration e mais...!",
+    "UI/UX Design\n- Adobe XD\n- Mobile & Web design\n- UI designs interativos\n- Responsividade\n- Prototipação e mais..!",
+    "Prototipação com Flutter\n- Trabalho com MVP\n- Prototipo rápido e funcional",
+    "Aulas de programação Web\n- HTML\n- CSS\n- JavaScript\n- ReactJS..!",
+    "Projetos Open Source no Github\n- Estrutura README.md\n- Boa documentação\n- Projetos abertos e mais...!",
   ];
 }

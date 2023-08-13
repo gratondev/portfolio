@@ -32,22 +32,20 @@ class StaticUtils {
     "https://img.icons8.com/metro/308/ffffff/linkedin.png",
     "https://img.icons8.com/material-rounded/384/ffffff/github.png",
     "https://img.icons8.com/ios/50/whatsapp--v1.png",
-    "https://img.icons8.com/ios/50/discord-logo--v1.png",
     "https://img.icons8.com/ios/50/apple-mail.png",
   ];
 
   static const List<String> socialLinks = [
-    "https://facebook.com/mhmzdev",
-    "https://instagram.com/mhmzdev",
-    "https://twitter.com/mhmzdev",
-    "https://linkedin.com/in/mhmzdev",
-    "https://github.com/mhmzdev",
+    "https://www.linkedin.com/in/pedro-graton-031857169/",
+    "https://github.com/gratondev",
+    "https://wa.me/5511915860395",
+    "mailto:grandrdep@gmail.com",
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+      'https://drive.google.com/drive/folders/1qt7gxBsh5w8WbbRcZJTB7vnapHggsTKP?usp=sharing';
 
-  static const String gitHub = 'https://github.com/mhmzdev';
+  static const String gitHub = "https://github.com/gratondev";
 }
 
 class BodyUtils {

@@ -15,7 +15,7 @@ class ContactUtils {
 
   static const List<String> details = [
     "Cajamar, SP",
-    "(+55)1191077-7763",
+    "+55 11 91586-0395",
     "grandrdep@gmail.com",
   ];
 }
